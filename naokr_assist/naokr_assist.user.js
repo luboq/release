@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name                脑壳小助手
 // @namespace           https://www.naokr.com/user/87670
-// @version             20230322.4
+// @version             20230322.5
 // @description         基于多条件隐藏题目和问答, 加强题单功能, 折叠评论区, 隐藏可能剧透的信息等
 // @author              乱撞的小鹿
 // @run-at              document-end
@@ -26,7 +26,7 @@ var blocked_question_types = []
 // 屏蔽的出题者，填写其数字id，这里以作者自己和脑壳小助手为例
 var blocked_author_ids = ["87670", "2"]
 // 是否屏蔽限时问题，true是屏蔽，false是不屏蔽
-var block_limited_time_question = true
+var block_limited_time_question = true;
 
 // ---------------- 自定义配置结束 以下部分不要乱改 ---------------
 
