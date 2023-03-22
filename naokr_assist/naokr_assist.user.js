@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name                脑壳小助手
 // @namespace           https://www.naokr.com/user/87670
-// @version             20230322.2
+// @version             20230322.3
 // @description         基于多条件隐藏题目和问答, 加强题单功能, 折叠评论区, 隐藏可能剧透的信息等
 // @author              乱撞的小鹿
 // @run-at              document-end
@@ -11,6 +11,7 @@
 // @grant               GM.getValue
 // @grant               GM_addStyle
 // @grant               GM_xmlhttpRequest
+// @license             GPL-3
 // ==/UserScript==
 
 'use strict';
