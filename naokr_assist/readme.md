@@ -10,7 +10,14 @@
 
 ## 2. 这脚本干什么用的？
 
-此脚本做下面几件事（链接供测试效果）：
+此脚本最主要干三件事：
+1. **支持从题目列表中隐藏题目**。每道题会附带一个隐藏按钮，点击后，这道题就会从题目列表中永久隐藏。例如，有些题目质量太差，不想回答。但如果不回答，它隔三岔五又出现在题目列表中，这时作者就给它隐藏了。又或者一道题已被归置到题单中，作者也会把它从题目列表中隐藏。当然你不需要跟作者一样，具体怎么用这个功能，取决于你自己。
+3. **支持在网页端隐藏评论区**。这是最困扰的一点：有些人喜欢在评论区报答案，而作者的电脑屏幕又比较大，一点进问题页面，评论区会直接露出来，一不小心就看到答案了。本来独自解起来很有趣的一道题，因为被剧透，瞬间乐趣全无。脑壳App已经有这个功能，此脚本在网页端也加上。
+4. **支持过滤题单中的题目**。主要用途是：假设你关注的某题单中有100道题，你已经全部回答完。某一天收到推送通知，说该题单增加了2道题，于是你点击进入，发现该题单变成了102道题，但是你根本无法知道新增加的2道题是哪两道。此脚本可以让你，点击一下就过滤出新添加的题。
+
+除了以上三点，还有其它一些次要小功能，具体参见下面的功能清单
+
+## 3. 功能清单
 
 1. 在 [题目列表](https://www.naokr.com/question) 页面，基于下列 4 项条件，屏蔽（隐藏）列表中的某些题目：
     * 手动隐藏：页面会出现 [[隐]字按钮](https://user-images.githubusercontent.com/3130930/226784596-d379cf97-9c9d-4159-ac8b-a34204191758.png)，点击后，这道题会在列表页面永久隐藏
@@ -39,7 +46,7 @@
 6. 进入 [创建的题单](https://www.naokr.com/user/87670/collections/created) 页面后，自动载入全部题单，并按照 最近修改时间 排序
     * 虽然这个功能对其他人“创建的题单”也有效，但主要用途是针对使用者自己“创建的题单”
 
-## 3. 支持在什么设备上使用？
+## 4. 支持在什么设备上使用？
 * Windows 桌面端：
     * 在 Chromium 102.0 浏览器、ViolentMonkey 2.14.0 下测试通过，可正常运行。
     * 在 Firefox 110.0 浏览器、Tampermonkey 4.18.1 下测试通过，可正常运行。
@@ -47,7 +54,7 @@
 * 其它系统、浏览器和脚本管理器，作者没时间测试，请自行尝试、自行解决问题
     * Android 上的 Via 浏览器和 X 浏览器，由于对 GM_* APIs 的支持太残缺，不可正常运行此脚本
 
-## 4. 怎样使用
+## 5. 怎样使用
 
 #### A. 安装步骤
 
@@ -57,7 +64,7 @@
     * Safari：[Tampermonkey](http://tampermonkey.net/?browser=safari) 或 [Userscripts](https://apps.apple.com/app/userscripts/id1463298887)
     * Microsoft Edge：[Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd) 或 [Violentmonkey](https://microsoftedge.microsoft.com/addons/detail/violentmonkey/eeagobfjdenkkddmbclomhiblgggliao)
 
-2. 点击 [这里](https://github.com/luboq/release/raw/main/naokr_assist/naokr_assist.user.js) 安装脑壳小助手脚本
+3. 点击 [这里](https://github.com/luboq/release/raw/main/naokr_assist/naokr_assist.user.js) 安装脑壳小助手脚本
 
 #### B. 设置
 
@@ -65,13 +72,13 @@
 * 建议把脚本自动更新关闭，否则将来更新时，您的自定义设置（例如隐藏的题型、出题者等）会被覆盖掉
 * **手动隐藏的题目清单，存储在脚本环境变量中，请注意备份**
 
-## 5. TODO
+## 6. TODO
 
 * 给各项小功能，加上开关
 * 提供一个不需要动代码，就能修改配置的方式，这样更新脚本时，设置不会被覆盖
 
 目前还不确定，会有多少人用这个脚本。等真的有人用，确认这些改动值得花时间后，再说吧
 
-## 6. License
+## 7. License
 
 [GPL-3](https://choosealicense.com/licenses/gpl-3.0/)
