@@ -55,7 +55,7 @@
     * Safari：[Tampermonkey](http://tampermonkey.net/?browser=safari) 或 [Userscripts](https://apps.apple.com/app/userscripts/id1463298887)
     * Microsoft Edge：[Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd) 或 [Violentmonkey](https://microsoftedge.microsoft.com/addons/detail/violentmonkey/eeagobfjdenkkddmbclomhiblgggliao)
 
-2. 点击 [这里](https://github.com/luboq/Trivia/raw/master/naokr_assist/naokr_assist.user.js) 安装脑壳小助手脚本
+2. 点击 [这里](https://github.com/luboq/release/raw/main/naokr_assist/naokr_assist.user.js) 安装脑壳小助手脚本
 
 #### B. 设置
 

@@ -95,6 +95,7 @@ GM_addStyle(" \
         overflow: hidden; \
         text-overflow: ellipsis; \
     } \
+    #addon-blocked-post-ids, \
     .ask-item-footer > .list-footer-items:last-child .addon-hide-button { \
         display: none; \
     } \
