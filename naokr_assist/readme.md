@@ -64,7 +64,7 @@
     * Safari：[Tampermonkey](http://tampermonkey.net/?browser=safari) 或 [Userscripts](https://apps.apple.com/app/userscripts/id1463298887)
     * Microsoft Edge：[Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd) 或 [Violentmonkey](https://microsoftedge.microsoft.com/addons/detail/violentmonkey/eeagobfjdenkkddmbclomhiblgggliao)
 
-2. 点击安装脑壳小助手：[主地址](https://github.com/luboq/release/raw/main/naokr_assist/naokr_assist.user.js) [备用地址](https://greasyfork.org/scripts/458163-%E8%84%91%E5%A3%B3%E5%B0%8F%E5%8A%A9%E6%89%8B/code/%E8%84%91%E5%A3%B3%E5%B0%8F%E5%8A%A9%E6%89%8B.user.js)
+2. 点击安装脑壳小助手：[主地址](https://github.com/luboq/release/raw/main/naokr_assist/naokr_assist.user.js) - [备用地址](https://greasyfork.org/scripts/458163-%E8%84%91%E5%A3%B3%E5%B0%8F%E5%8A%A9%E6%89%8B/code/%E8%84%91%E5%A3%B3%E5%B0%8F%E5%8A%A9%E6%89%8B.user.js)
 
 #### B. 设置
 
